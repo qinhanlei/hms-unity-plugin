@@ -7,6 +7,8 @@ namespace HmsPlugin
         private const string SettingsFilename = "HMSMLKitSettings";
         public const string EnableTranslateModule = "EnableTranslateModule";
         public const string EnableTextToSpeechModule = "EnableTextToSpeechModule";
+        public const string EnableLanguageDetectionModule = "EnableLanguageDetectionModule";
+        public const string EnableTextRecognitionModule = "EnableTextRecognitionModule";
         public const string MLKeyAPI = "MLKeyAPI";
 
         private SettingsScriptableObject loadedSettings;
